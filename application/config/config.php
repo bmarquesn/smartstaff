@@ -23,7 +23,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+if($_SERVER['SERVER_ADDR'] === "::1") {
+	define("SERVIDOR", "local");
+	$config['base_url'] = 'http://localhost:8080/smartstaff/';
+} else {
+	define("SERVIDOR", "remoto");
+	$config['base_url'] = 'http://www.smartstaff.com.br';
+}
 
 /*
 |--------------------------------------------------------------------------
