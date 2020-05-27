@@ -1,4 +1,14 @@
 ###################
+Desafio - Recrutamento Smartstaff
+###################
+
+Coloque os arquivos dentro de uma pasta do seu servidor Apache. Ex.: C:\\xampp\\htdocs\\smartstaff\\
+
+Se seu apache estiver usando outra porta (diferente da 80) atualize no arquivo application/config/config.php a constante $config['base_url']. Ex.: $config['base_url'] = 'http://localhost:8080/smartstaff/';
+
+Se precisar acessar diretamente um numero de página desejado acesse http://localhost:8080/smartstaff/?numero_pagina=[pagina desdejada] (Ex.: http://localhost:8080/smartstaff/?numero_pagina=4)
+
+###################
 What is CodeIgniter
 ###################
 

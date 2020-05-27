@@ -3,7 +3,7 @@ html, body {
 }
 
 .container #filtrar .col-5 .row .col:last-child img {
-    width:25pt;
+    max-width:25pt;
     cursor:pointer;
 }
 
