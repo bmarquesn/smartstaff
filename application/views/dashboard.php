@@ -10,8 +10,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<h1 class="text-center">Smarts Dashboard</h1>
 			<br />
+			<div class="row">
+				<div class="col text-center">ORDENAR:</div>
+			</div>
 			<div class="row" id="ordenar">
-				<div class="col-2 align-self-center">ORDENAR:</div>
 				<div class="col">
 					<button type="button" class="btn btn-info">Menor Budget</button>
 				</div>

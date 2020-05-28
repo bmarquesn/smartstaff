@@ -7,6 +7,8 @@ html, body {
     cursor:pointer;
 }
 
+.container #ordenar button {margin:5pt 0;}
+
 .container #usuarios {
     border:#eee 1pt solid;
     border-radius:5pt;
